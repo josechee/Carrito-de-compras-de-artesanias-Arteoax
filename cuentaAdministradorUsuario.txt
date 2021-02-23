@@ -1,0 +1,15 @@
+Administrador(a)
+
+correo:
+admin@gmail.com
+password:
+admin
+
+
+
+Usuario
+
+correo:
+testRegistro@gmail.com
+password:
+test

@@ -43,10 +43,10 @@
                 <div id="cuerpo">
                     <form id="frmPrincipal" action="control_Registro.jsp" method="post">
 
-                        <p>   <label>Correo Electronico: </label> </p>
-                        <input type="email" name="txtUsuario" id="usuario" placeholder="Ingrese su Correo electronico" autofocus="" required="" value=""/>
-                        <p> <label>Contrasenia:</label></p>
-                        <p>   <input type="password" name="txtContrasenia"  placeholder="Ingrese su contrasenia" required="" value=""/></p>  <!--por que funciona solamente cuando tiene un valor en la variable-->
+                        <p>   <label>Email: </label> </p>
+                        <input type="email" name="txtUsuario" id="usuario" placeholder="Ingrese un correo electronico" autofocus="" required="" value=""/>
+                        <p> <label>Password:</label></p>
+                        <p>   <input type="password" name="txtContrasenia"  placeholder="Ingrese una contrasenia" required="" value=""/></p>  <!--por que funciona solamente cuando tiene un valor en la variable-->
                         <a href="registroUSuario.jsp" ></a>
                         <p id="bot">  <input type="submit" id="submit" name="btnIngresar" value="Registrarse" class="boton"></p>
                         
