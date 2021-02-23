@@ -1,0 +1,89 @@
+body{
+
+    background-color: khaki;
+}
+
+
+div{
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+}
+
+#formulario{
+    position: absolute;
+    top:10%;
+    width: 30%;
+    left: 1%;
+    height: 20%;
+    background-color: rgb(189,202,198);
+}
+
+#mensajeComprasRealizadas{
+    position: absolute;
+    top: 1%;
+}
+
+#botonRegresar{
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    left: 48%;
+    background-color: #0C6351;
+    font-size: 170%;
+    color: white;
+    border-radius: 5px;
+}
+
+#botonRegresar:hover{
+    background-color: white;
+    color: #0C6351;
+}
+
+#listaProductos{
+    top:31%;
+    width: 70%;
+    left: 1%;
+    height: 69%;
+    text-align: center;
+    background-color: orange;
+
+}
+
+#carrito{
+    top:1%;
+    width: 29%; 
+    left: 71%;
+    height: 99%;
+    background-color: orange;
+}
+
+#tblLista, tr, thead, td{
+
+    border-style: double;
+    border-color:green;
+    text-align: center;
+    top: 10%;
+}
+#img{
+
+    width: 35%;
+    right: 20%;
+}
+
+#JcomboxRegiones{
+    background-color: mediumaquamarine;
+    font-family: Arial;
+}
+
+#listaCompras{
+    top:11%;
+    width: 70%;
+    left: 1%;
+    height: 69%;
+    text-align: center;
+    background-color: orange;
+
+
+
+}

@@ -1,0 +1,135 @@
+div{
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+}
+
+body{
+    background-color: khaki;
+}
+
+#formulario{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    background-color: khaki;
+}
+
+#frmRegiones{
+    border-style: dashed;
+}
+
+#JcomboxRegiones{
+    background-color: white;
+    font-family: Arial;
+}
+
+#botonRegistrarProducto{
+    background-color: #0C6351;
+    color: white;
+    font: bold 17px Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+#botonRegistrarProducto:hover{
+    background-color: white;    
+    color: #0C6351;
+}
+
+#prodcutos{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    background-color: orange;
+    width: 70%;
+    height: 80%;
+}
+
+#h3{
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    font: bold 17px Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+
+#listaProductos, tr, thead, td{
+    border-style: double;
+    border-color:green;
+    text-align: center;
+    top: 10%;
+}
+
+#ventas{
+    position: absolute;
+    top: 53%;
+    left: 5%;
+    background-color: orange;
+    color: black;
+    font-size: 150%;
+    border-radius: 5px;
+}
+
+#ventas:hover{
+    background-color: #0C6351;
+    color: white;
+}
+
+#principal{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    background-color: orange;
+    font-size: 150%;
+    border-radius: 5px;
+}
+
+#principal:hover{
+    background-color: #AB3D20;    
+}
+
+
+#tblProductos, tr, thead, td{   
+    border-style: double;
+    border-color:green;
+    text-align: center;
+    top: 10%;
+}
+
+#tblVentas, tr, thead, td{   
+    border-style: double;
+    border-color:green;
+    text-align: center;
+    top: 10%;
+}
+
+#listaVentas{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    background-color: orange;   
+}
+
+#listadoVentas{
+    position: absolute;
+    top: 4%;
+    left: 48%;
+    background-color: #0C6351;
+    font-size: 170%;
+    color: white;
+    border-radius: 5px;
+}
+
+#listadoVentas:hover{
+
+    background-color: white;
+    color: #0C6351;
+}
+
+.opciones{
+    color: black;
+}
+
+.opciones:hover{
+    background-color: white;   
+}

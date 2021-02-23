@@ -1,0 +1,141 @@
+body{
+    background-image: url("../imgs/artesaniaOaxaca.jpg");
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: 70% 0%;
+    background-size: 100%;
+}
+
+#envoltura{    
+    position:absolute;    
+    margin-left:-165px;
+    margin-top: -210px;
+    left:40%;
+    top:30%;
+    width: 280px;
+}
+
+#contenedor{
+    position: absolute;  
+    background-image: url("../imgs/fondo3.jpg");
+    background-repeat: no-repeat;
+    background-position: 10% 30%;
+    background-size: 100% 100%;
+    opacity: 80%;
+    padding: 8px;    
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+    -webkit-border-radius:5px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    width: 35%;
+    left:34%;
+    height: 45%; 
+    top:25%;
+}
+
+#textoLogin{
+    position: absolute;
+    top: -13%;
+    left: 23%;
+    width: 45%;
+    font-family: sans-serif;    
+    border-radius: 5px;
+    padding: 20px;
+    font-size:385%;
+    font-weight: bold;
+    text-align: center;    
+    color: #0C6351;
+}
+
+#cabecera{    
+    border-bottom: 5px solid #333;
+    padding-top: 5px; 
+    height:70px;
+    line-height:50px;
+    text-align:center;
+}
+
+.boton{
+    position: absolute;
+    background-color:  red;
+    background: -webkit-linear-gradient(top,#fc6,#f63);
+    background: linear-gradient(top,#fc6,#f63);
+    font-size: 25px; 
+    height: 20%;
+    width: 110px;
+    right: 35%;
+    color: #0C6351;
+    background: white;
+}
+
+.boton:hover {
+    color: white;
+    background: #0C6351;
+}
+#bot{
+}
+
+#botonRegistrarUsuario{
+    position: absolute;  
+    top: 67%;    
+    color: #0C6351;
+    background: white;
+    font-size: 25px;   
+    height: 5%;
+    width: 125px;
+    left: 61%;
+    font:bold 22px Arial, Helvetica, sans-serif;
+}
+
+#botonRegistrarUsuario:hover {
+    color: white;
+    background: #0C6351;
+}
+
+p#bot{
+    padding-top: 10px;
+}
+
+img{
+    position: absolute;
+    width: 110px;
+    right: 30%;
+}
+
+input{
+    border-radius:5px;
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);
+    font:bold 17px Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+    height: 29px;   
+    line-height: 20px;
+    padding:0 2px;      
+    width: 290px;
+}
+
+label{
+    background: #0C6351;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius:5px;
+}
+
+#p1{
+    position: absolute;
+    top: 17%;
+    background-color: #091802;
+    left: 35%;
+    color: white;
+    font:bold 13px Arial, Helvetica, sans-serif;
+}
+
+#cuerpo{
+    position: absolute;
+    top: 25%;
+    right: 20%;
+}
+

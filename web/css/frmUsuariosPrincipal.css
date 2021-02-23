@@ -1,0 +1,179 @@
+body{
+
+    background-color: khaki;
+}
+
+div{
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+}
+
+#mensajeBienvenida{
+    position: absolute;
+    top: 10%;
+    font: bold 25px Arial, Helvetica, sans-serif;
+}
+
+#mensajeSeleccionRegion{
+    position: absolute;
+    top: 35%;
+}
+
+#mensajeRegiones{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+#formulario{/*Seleccion de la region de productos a mostrar*/
+    position: absolute;
+    top: 1%;
+    width: 70%;
+    left: 1%;
+    height: 40%;
+    background-color: #26CDAE;
+}
+
+#listaProductos{ /*Lista de producto*/
+    top:31%;
+    width: 70%;
+    left: 1%;
+    height: 69%;
+    text-align: center;
+    background-color: orange;
+
+}
+
+#carrito{/*Seccion del carrito*/
+    top:1%;
+    width: 29%; 
+    left: 71%;
+    height: 99%;
+    background-color: orange;
+}
+
+#tblLista, tr, thead, td{
+
+    border-style: double;
+    border-color:green;
+    text-align: center;
+    top: 10%;
+}
+#img{
+
+   
+}
+#imagenCarrito{
+    image-resolution: normal;
+    position: relative;
+    width: 35%;
+    right: 20%;
+    left: 35%;
+}
+
+#JcomboxRegiones{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    background-color: white;
+    font-family: Arial;
+}
+
+#botonMostrarProductos{
+    position: absolute;
+    top: 60%;
+    left: 24%;
+    background-color: white;    
+    color: #0C6351;
+    font: bold 15px Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+#botonMostrarProductos:hover{
+    background-color: #0C6351;
+    color: white;
+}
+
+#botonFinalizarCompra{
+    position: absolute;
+    left: 62%;
+    background-color: white;    
+    color: #0C6351;
+    font: bold 15px Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    
+
+}
+
+#botonFinalizarCompra:hover{
+    background-color: #0C6351;
+    color: white;
+}
+
+#listaCompras{
+    top:15%;
+    width: 70%;
+    left: 1%;
+    height: 69%;
+    text-align: center;
+    background-color: #cc9;
+}
+
+#comprasUsuario{
+
+    position: absolute;
+    top: 60%;
+    left: 47%;
+    background-color: white;
+    color: #0C6351;
+    border-radius: 5px;
+    font: bold 15px Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+#comprasUsuario:hover{
+
+    background-color: #0C6351;
+    color: white;
+}
+
+#comprasUsuario2{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+
+    font-size: 120%;
+}
+
+#comprasUsuario2:hover{
+
+    background-color: red;
+}
+
+
+#cerrarSesion{
+    position: absolute;
+    top: 60%;
+    left: 85%;
+    background-color: white;
+    color: #0C6351;
+    font-size: 140%;
+    font: bold 18px Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+#cerrarSesion:hover{
+    background-color: #0C6351;
+    color: white;
+}
+
+.opciones{
+    background-color: palegreen;
+    color: black;
+}
+
+.botones:hover{
+    background-color: green;
+    color: white;
+
+}
